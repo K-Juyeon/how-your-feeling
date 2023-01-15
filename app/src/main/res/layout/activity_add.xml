@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75EFEFEF"
+    tools:context=".AddActivity">
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="520dp"
+        android:button="@null"
+        android:text="#기쁨"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="520dp"
+        android:button="@null"
+        android:text="#신남"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="520dp"
+        android:button="@null"
+        android:text="#슬픔"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="520dp"
+        android:button="@null"
+        android:text="#기대"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="520dp"
+        android:button="@null"
+        android:text="#외로움"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="560dp"
+        android:button="@null"
+        android:text="#즐거움"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="560dp"
+        android:button="@null"
+        android:text="#우울"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+    <CheckBox
+        android:id="@+id/check8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="560dp"
+        android:textColor="@drawable/custom_checkbox"
+        android:button="@null"
+        android:text="#호기심"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="560dp"
+        android:button="@null"
+        android:text="#상쾌함"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="600dp"
+        android:button="@null"
+        android:text="#센치함"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="600dp"
+        android:button="@null"
+        android:text="#분노"
+        android:textColor="@drawable/custom_checkbox"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/textarea"
+        android:layout_width="376dp"
+        android:layout_height="99dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        android:gravity="top|left"
+        android:hint="당신의 상태는 어떠신가요."
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxWidth="5.0dip"
+        android:minWidth="10.0dip"
+        android:scrollHorizontally="false" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="315dp"
+        android:text="오늘 당신은?"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="274dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/edittext_roundbox"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="265dp"
+        android:text="위치"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="274dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/edittext_roundbox"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="210dp"
+        android:text="오늘의 일기"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="65dp"
+        android:text="오늘 하루"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rating_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="65dp"
+        android:text="0점"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="490dp"
+        android:text="기분 #키워드를 선택해주세요. (최대 3개)"
+        android:textSize="20sp"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="190dp"
+        android:background="#DCDADA" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="470dp"
+        android:background="#DCDADA" />
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="5dp"
+        android:background="#00FF0000"
+        android:text="추가"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_image"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="회원가입"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editId"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="아이디"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimary" />
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/editPw"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_baseline_https_24"
+                android:drawableLeft="@drawable/ic_baseline_https_24"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary" />
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/editPwCheck"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호 확인"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_baseline_https_24"
+                android:drawableLeft="@drawable/ic_baseline_https_24"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="이름"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/capchaView"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/edtChaptcha"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="자동가입 방지 보안문자"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_baseline_check_24"
+                android:drawableLeft="@drawable/ic_baseline_check_24"
+                android:background="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btnCapcha"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#cecece"
+                android:layout_marginTop="10dp"
+                android:text="보안문자 새로고침"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCheck"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark"
+                android:text="아이디 중복확인"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark"
+                android:text="회원가입"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/btnSignin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="로그인" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

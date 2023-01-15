@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="7dp"
+    android:padding="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_itembackground"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/item_poster"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/item_id"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="id"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="이야야야야"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/item_content"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="기분 개좋음"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/item_keyword"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="65dp"
+            android:text="#기쁨"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+    <!--            android:layout_toRightOf="@id/item_title"-->
+<!--
+    android:visibility="gone"-->
